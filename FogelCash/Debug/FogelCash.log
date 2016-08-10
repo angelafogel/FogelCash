@@ -1,0 +1,228 @@
+﻿Build started 8/10/2016 10:18:03 AM.
+     1>Project "C:\Users\Angela\Documents\Visual Studio 2013\Projects\FogelCash2\FogelCash\FogelCash\FogelCash.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\FogelCash.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\FogelCash.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cryptopp\rijndael.cpp CryptoPP_Cash.cpp Source.cpp Customer.cpp Main.cpp
+         Main.cpp
+         Customer.cpp
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\customer.cpp(48): error C2082: redefinition of formal parameter 'NewCustomer_Par'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\customer.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\customer.cpp(123): error C2059: syntax error : '}'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\customer.cpp(123): error C2143: syntax error : missing ';' before '}'
+         Source.cpp
+         CryptoPP_Cash.cpp
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(52): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(52): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(53): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(53): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(68): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(68): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(68): error C2371: 'stfEncryptor' : redefinition; different basic types
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(66) : see declaration of 'stfEncryptor'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(69): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(69): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(69): error C2371: 'stfEncryptor' : redefinition; different basic types
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(66) : see declaration of 'stfEncryptor'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(70): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(70): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(71): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(71): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(71): error C2371: 'std::cout' : redefinition; different basic types
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\iostream(27) : see declaration of 'std::cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(72): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(72): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(72): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(73): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(73): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(73): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(74): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(74): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(75): error C2059: syntax error : 'for'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(75): error C2143: syntax error : missing ')' before ';'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(75): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(75): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(75): error C2143: syntax error : missing ';' before '++'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(75): error C2086: 'int i' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(75) : see declaration of 'i'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(75): error C2059: syntax error : ')'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(75): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(75): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(79): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(79): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(79): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(80): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(80): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(85): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(85): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(85): error C2371: 'encoded' : redefinition; different basic types
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(44) : see declaration of 'encoded'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(86): error C2143: syntax error : missing ')' before ','
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(86): error C2371: 'ciphertext' : redefinition; different basic types
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(48) : see declaration of 'ciphertext'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(86): error C2059: syntax error : 'constant'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(90): error C2059: syntax error : ')'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(91): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(91): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(92): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(92): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(93): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(93): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(93): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(95): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(95): error C2040: 'name2' : 'int' differs in levels of indirection from 'char *'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(98): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(98): error C2365: 'strcpy' : redefinition; previous definition was 'function'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(98): error C2440: 'initializing' : cannot convert from 'char *' to 'int'
+                 There is no context in which this conversion is possible
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(104): error C2059: syntax error : 'for'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(104): error C2143: syntax error : missing ')' before ';'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(104): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(104): error C2365: 'sscanf' : redefinition; previous definition was 'function'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(104): error C2078: too many initializers
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(104): error C2440: 'initializing' : cannot convert from 'unsigned int *' to 'int'
+                 There is no context in which this conversion is possible
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(104): error C2143: syntax error : missing ';' before '=='
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(104): error C2143: syntax error : missing ';' before '+='
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(104): error C2040: 'hex_str' : 'int' differs in levels of indirection from 'const char *'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(104): error C2059: syntax error : ')'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(106): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(106): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(106): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(107): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(107): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(107): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(108): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(108): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(109): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(109): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(109): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(118): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(118): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(118): error C2371: 'stfDecryptor' : redefinition; different basic types
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(117) : see declaration of 'stfDecryptor'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(119): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(119): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(119): error C2371: 'stfDecryptor' : redefinition; different basic types
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(117) : see declaration of 'stfDecryptor'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(120): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(120): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(120): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(121): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(121): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(121): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(122): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(122): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(122): error C2086: 'int cout' : redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(51) : see declaration of 'cout'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(124): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(124): error C2365: 'system' : redefinition; previous definition was 'function'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(560) : see declaration of 'system'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(124): error C2440: 'initializing' : cannot convert from 'const char [6]' to 'int'
+                 There is no context in which this conversion is possible
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(126): error C2059: syntax error : 'return'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(128): error C2059: syntax error : '/'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(128): error C2146: syntax error : missing ';' before identifier 'the'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(128): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(128): error C2146: syntax error : missing ';' before identifier 'entry'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(128): error C2146: syntax error : missing ';' before identifier 'point'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(128): error C2143: syntax error : missing ';' before 'for'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xlocmon(15): error C2143: syntax error : missing ';' before '{'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xlocmon(15): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(153): error C2088: '<<' : illegal for class
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(156): error C2088: '<<' : illegal for class
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(157): error C2088: '<<' : illegal for class
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(159): error C2563: mismatch in formal parameter list
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(159): error C2568: '<<' : unable to resolve function overload
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(997): could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(164): error C2059: syntax error : '}'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp_cash.cpp(164): error C2143: syntax error : missing ';' before '}'
+         rijndael.cpp
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(67): warning C4627: '#include "pch.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(72): warning C4627: '#include "rijndael.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(73): warning C4627: '#include "misc.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(74): warning C4627: '#include "cpu.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(116): warning C4005: 'QUARTER_ROUND_LD' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(110) : see previous definition of 'QUARTER_ROUND_LD'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(129): warning C4005: 'TL_F' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(126) : see previous definition of 'TL_F'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(130): warning C4005: 'TL_M' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(127) : see previous definition of 'TL_M'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(133): warning C4005: 'QUARTER_ROUND_FE' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(123) : see previous definition of 'QUARTER_ROUND_FE'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(134): warning C4005: 'QUARTER_ROUND_FD' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(124) : see previous definition of 'QUARTER_ROUND_FD'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(136): warning C4005: 'TL_F' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(129) : see previous definition of 'TL_F'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(137): warning C4005: 'TL_M' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(130) : see previous definition of 'TL_M'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(139): warning C4005: 'TL_F' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(136) : see previous definition of 'TL_F'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(140): warning C4005: 'TL_M' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(137) : see previous definition of 'TL_M'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(552): warning C4005: 'L_REG' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(528) : see previous definition of 'L_REG'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(553): warning C4005: 'L_INDEX' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(529) : see previous definition of 'L_INDEX'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(554): warning C4005: 'L_INXORBLOCKS' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(530) : see previous definition of 'L_INXORBLOCKS'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(555): warning C4005: 'L_OUTXORBLOCKS' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(531) : see previous definition of 'L_OUTXORBLOCKS'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(556): warning C4005: 'L_OUTBLOCKS' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(532) : see previous definition of 'L_OUTBLOCKS'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(557): warning C4005: 'L_INCREMENTS' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(533) : see previous definition of 'L_INCREMENTS'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(558): warning C4005: 'L_LENGTH' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(535) : see previous definition of 'L_LENGTH'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(559): warning C4005: 'L_KEYS_BEGIN' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(536) : see previous definition of 'L_KEYS_BEGIN'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(561): warning C4005: 'MOVD' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(538) : see previous definition of 'MOVD'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(567): warning C4005: 'MM_2' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(565) : see previous definition of 'MM_2'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(569): warning C4005: 'MM' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(539) : see previous definition of 'MM'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(574): warning C4005: 'MXOR' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(545) : see previous definition of 'MXOR'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(578): warning C4005: 'MMOV' : macro redefinition
+                 c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(549) : see previous definition of 'MMOV'
+     1>c:\users\angela\documents\visual studio 2013\projects\fogelcash2\fogelcash\fogelcash\cryptopp\rijndael.cpp(1263): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         Generating Code...
+     1>Done Building Project "C:\Users\Angela\Documents\Visual Studio 2013\Projects\FogelCash2\FogelCash\FogelCash\FogelCash.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.24
